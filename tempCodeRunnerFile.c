@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    float a=2.5;
-    float b=3.0;
-    printf("float value with positive data: %d\n",a);
-    printf("float value with positive data: %d",b);
+    int a,b;
+    printf("enter value of a:\n");
+    scanf("%d,&a");
+    printf("enter value of b:\n");
+    scanf("%d,&b");
+    printf("(a+b) is %d\n",(a+b));
     return 0;
-
-
 }
+
