@@ -12,5 +12,7 @@ int main()
     printf("a/b = %d\n", res);
     res = a % b;
     printf("a%%b = %d\n", res);
+    
     return 0;
+
 }
